@@ -1,5 +1,18 @@
-# reactjs-ecommerce
-E-Commerce App by ReactJS, Typescript, Redux Toolkit and tailwindCSS
+# Doctor Patient Dashboard
+Doctor Patient Dashboard App by ReactJS, Typescript, Zustand and tailwindCSS
+
+## Screenshot
+*Light Mode*
+![ss](https://github.com/KareemE125/Doctor-Patient-Dashboard/assets/61433385/231d51e5-29ee-4d08-a4d6-fad5026006cd)
+
+*Dark Mode*
+![ss-dark](https://github.com/KareemE125/Doctor-Patient-Dashboard/assets/61433385/68a345a0-a297-408e-9a1d-23b88da7cb99)
+
+
+
+## Adobe XD 
+Link: https://xd.adobe.com/view/121254c9-532f-4772-a1ba-dfe529a96b39-4741/specs/
+
 
 # React + TypeScript + Vite
 
