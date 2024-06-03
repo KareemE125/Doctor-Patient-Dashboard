@@ -1,0 +1,38 @@
+.scrollable-tbody {
+  display: block;
+  overflow-y: auto;
+}
+
+.scrollable-tbody::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scrollable-tbody::-webkit-scrollbar-thumb {
+  @apply bg-gray-950;
+  border-radius: 9999px;
+}
+
+.scrollable-tbody::-webkit-scrollbar-track {
+  @apply bg-gray-300;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+thead,
+tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+thead {
+  padding: 8px;
+}
+
+tbody {
+  display: block;
+  width: 100%;
+}

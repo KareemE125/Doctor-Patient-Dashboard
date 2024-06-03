@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700:900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Manrope', sans-serif;
+}
+
+/***** Modern scroll bar style *****/
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    @apply bg-gray-300 rounded-full; 
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    @apply bg-gray-950 rounded-full; 
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-950;
+}
+
+
+
+/* *{
+    transition: all 0.2s ease-in-out;
+} */
